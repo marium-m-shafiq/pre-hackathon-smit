@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--font-type -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap-cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+  <!--  Header -->
+  <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="success">
+    <div class="container-xxl">
+      <a class="navbar-brand" href="#" style="color: yellow;">pre-hackathon-smit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../src/index.html" style="color: yellow;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html pages/singup.html" style="color: yellow;">singup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html pages/profile.html" style="color: yellow;">Profile</a>
+          </li>
+          <li class="nav-item" id="admin-tab">
+            <a class="nav-link" href="../html pages/login.html" style="color: yellow;">login</a>
+          <li class="nav-item">
+            <a class="nav-link" href="../html pages/admin.html" style="color: yellow;">admin</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--  Header -->
+  <!-- singup (open) -->
+    <div class="card royal-card m-auto my-5">
+        <div class="row g-0">
+          
+          <div class="col-md-4 text-center royal-left">
+            <img
+              id="profile-img"
+              src="./image two.jpg"
+              class="royal-img"
+              alt="profile">            
+      
+          <div class="col-md-8">
+            <div class="card-body royal-body">
+      
+              <h1 id="prof-title" class="royal-title">Royal Profile</h1>
+      
+              <label class="royal-label">
+                Name
+                <input class="form-control royal-input update" name="name" id="uname">
+              </label>
+      
+              <p class="royal-email">📧 mariumshafiq61@gmail.com</p>
+      
+              <label class="royal-label">
+                Bio
+                <input class="form-control royal-input update" id="bio"></input>
+              </label>
+      
+              <label class="royal-label">
+                Contact
+                <input type="number" class="form-control royal-input update" id="contact">
+              </label>
+      
+              <label class="royal-label">
+                Age
+                <input type="number" class="form-control royal-input update" id="age">
+              </label>
+      
+              <p class="text-muted mt-3">
+                <small>Last updated 3 mins ago</small>
+              </p>
+      
+            </div>
+          </div>
+      
+        </div>
+      </div>
+        <!-- singup (close) -->
+
+</body>
+</html>

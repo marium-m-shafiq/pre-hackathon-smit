@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #FFD700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  div {
+    background: #111;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  button {
+    background: #FFD700;
+    color: #000;
+    border: none;
+    padding: 8px;
+    margin-top: 5px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  li {
+    background: #222;
+    margin-top: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logout {
+    background: red;
+    color: white;
+  }
+  
